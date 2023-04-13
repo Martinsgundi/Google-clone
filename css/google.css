@@ -9,9 +9,8 @@
     background-color: white;
  }
  .googlepage {
+    margin: 0, auto;
     text-align: center;
-    margin-left: 30%;
-    margin-right: 30%;
     margin-bottom: 4%;
     padding-top: 5px;
     margin-top: 6.5%;
@@ -157,7 +156,7 @@ nav button {
 }
 .my-signature {
     margin-top: 35px;
-    margin-bottom: 77px;
+    margin-bottom: 129px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: black;
     display: block;
@@ -209,3 +208,39 @@ footer a:hover {
 }
 
 
+@media only screen and (max-width: 600px) {
+    .googlepage, .Lang footer {
+        width: 100%;
+    } 
+    .googlepage {
+        font-size: 45px;
+    }
+    .search-bar {
+        width: 85%;
+    }
+    .submit-btn {
+        border: 1px solid transparent;
+        padding: 9px 15px;
+        color: #666;
+        font-size: 14px;
+        border-radius: 4px;
+        display: inline-block;
+        margin-right: 10px;
+        margin-top: 28px;
+        outline: none;
+        cursor: pointer;
+        transition: border-color 100ms;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .googlepage, .Lang footer {
+        width: 100%;
+    } 
+}
+
+@media only screen and (max-width: 1200px) {
+    .googlepage, .Lang footer {
+        width: 100%;
+    } 
+}
